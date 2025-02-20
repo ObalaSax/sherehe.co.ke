@@ -1,7 +1,35 @@
-import React from "react";
+import { Grid } from "@mui/material";
+import EventCard from "../Compontents/EventCard";
 
 function Events() {
-  return <div>Events</div>;
+  return (
+    <Grid container spacing={2} m={"auto"}>
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+      <EventCard />
+    </Grid>
+  );
 }
 
 export default Events;
